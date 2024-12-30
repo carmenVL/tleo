@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ReactPaginate from "react-paginate";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import "../../style/Tendencies.css";
+
 
 
 function Added() {

@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import "../../style/BookDetails.css";
 
 function BookDetails() {
   const { id } = useParams();
