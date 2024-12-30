@@ -33,7 +33,7 @@ function Header() {
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a className="dropdown-item" href="https://tleo.netlify.app/Tendencies">Tendencias</a>
+                                <a className="dropdown-item" href="/Tendencies">Tendencias</a>
                             </li>
                             <li>
                                 <a className="dropdown-item" href="/Added">Los más añadidos</a>
