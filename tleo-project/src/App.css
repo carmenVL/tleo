@@ -1,0 +1,201 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/*CSS HEADER*/
+
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #8b2013;
+  /* Cambia este color por el que prefieras */
+  color: white;
+  /* Cambia el color del texto si es necesario */
+}
+
+.bg-custom-header {
+  background-color: #D4AF37 !important;
+}
+
+.navbar,
+.navbar * {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2F2F2F;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #2f2f2f;
+}
+
+/*CSS FOOTER*/
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.bg-custom-footer {
+  background-color: #2F2F2F !important;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-white {
+  text-decoration-line: none;
+}
+
+/*CSS HOME*/
+
+.slick-prev,
+.slick-next {
+  background-color: #ffffff;
+  /* Fondo oscuro para las flechas */
+  color: #ffffff;
+  /* Color blanco para las flechas */
+  border-radius: 50%;
+  /* Flechas redondeadas */
+  padding: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #ffffff;
+  /* Efecto hover */
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #8b2013;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.slide {
+  background-color: #F5F5DC;
+}
+
+/*CSS CAROUSEL*/
+
+.slider-container {
+  margin: 40px auto;
+  width: 80%;
+}
+
+.book-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.book-card img {
+  width: 150px;
+  /* Ancho fijo para todas las imágenes */
+  height: 220px;
+  /* Alto fijo para todas las imágenes */
+  object-fit: cover;
+  margin-left: 65px;
+  margin-bottom: 10px;
+}
+
+.book-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #8b0000;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #2F2F2F;
+}
+
+.carousel-libros {
+  padding: 50px 0px 0px 30px;
+}
+
+/*CSS CUADRANTE GENRE*/
+
+.genre-card {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.genre-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+
+}
+
+.genre-card .genre-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.genres {
+  background-color: #F5F5F5;
+  padding: 50px 40px 100px 40px;
+}
+
+.dropdown-menu.genres-menu.show {
+  width: 500px;
+}
+
+.book-card img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  /* margen superior/inferior y centrado horizontal */
+}
