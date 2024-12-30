@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom'; // Asegúrate de importar Link
 import Header from "../../components/Header";
 import Footer from '../../components/Footer';
-import "../../style/GenrePage.css";
 
 const GenrePage = () => {
   const { genre } = useParams(); // Obtén el género de la URL
