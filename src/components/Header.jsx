@@ -10,7 +10,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light bg-custom-header" style={{ padding: '10px 20px' }}>
             <a className="navbar-brand" href="/home">
                 <img
-                    src="/public/img/tleo-logo-principal.png"
+                    src="img/tleo-logo-principal.png"
                     width="123"
                     height="54"
                     alt="TLeo logo"
@@ -33,7 +33,7 @@ function Header() {
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a className="dropdown-item" href="/Tendencies">Tendencias</a>
+                                <a className="dropdown-item" href="https://tleo.netlify.app/Tendencies">Tendencias</a>
                             </li>
                             <li>
                                 <a className="dropdown-item" href="/Added">Los más añadidos</a>
