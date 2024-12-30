@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="col-md-2">
       <a href="/home" rel="noopener noreferrer">
   <img
-    src="    /src/assets/img/tleo-logo-2.png"
+    src="/public/img/tleo-logo-2.png"
     alt="Descripción de la imagen"
     style={{ width: '150px', height: 'auto' }} 
   />
@@ -46,7 +46,7 @@ const Footer = () => {
 
       <div className="col-md-3">
       <h4 style={{ padding: '20px 0px' }}>Descarga la aplicación de TLeo</h4>
-      <img src="\src\assets\img\apps.png"  width="153" alt="Apps" />
+      <img src="/public/img/apps.png"  width="153" alt="Apps" />
       </div>
     </div>
   </div>

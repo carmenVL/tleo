@@ -10,7 +10,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light bg-custom-header" style={{ padding: '10px 20px' }}>
             <a className="navbar-brand" href="/home">
                 <img
-                    src="\src\assets\img\tleo-logo-principal.png"
+                    src="/public/img/tleo-logo-principal.png"
                     width="123"
                     height="54"
                     alt="TLeo logo"

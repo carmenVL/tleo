@@ -56,7 +56,7 @@ const HomePage = () => {
 
       <div className="col-md-6 d-flex justify-content-center align-items-center">
   <img 
-    src="/src/assets/img/Book-Lover-bro.png" 
+    src="/public/img/Book-Lover-bro.png" 
     width="423"  
     alt="TLeo logo" 
   />
